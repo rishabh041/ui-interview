@@ -1,0 +1,24 @@
+Develop JIRA like kanban board
+1. Develop different columns - done
+2. Able to create tickets - done
+3. Drag and drop into different columns - 
+
+Requirements
+1. Configurability through props
+2. Show the title, ticket number and date in the ticket box
+3. Show the columns Todo, In Progress and Done. FOR NOW
+
+
+create
+const ticketObj =  {
+  ticketNumber = 1,
+  name,
+  timestamp,
+  progress,
+}
+
+Ticket(ticketObj);
+
+
+
+const ticketStates = ['Todo', 'Inprogress', 'Done'];

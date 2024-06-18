@@ -1,0 +1,21 @@
+Autocomplete 
+Develop a React Autocomplete component that provides suggestions to users as they type into an input field. The component should have the following features:
+Asynchronous Data Fetching: Fetch suggestions asynchronously from a remote server or API as the user types.
+Debounce: Implement debouncing functionality to optimize the data fetching process.
+List Rendering: Display the fetched suggestions in a dropdown list below the input field.
+Requirements:
+User Interface (UI):
+Create a React component called Autocomplete that consists of an input field.
+Below the input field, render a dropdown list to display the fetched suggestions.
+Ensure the dropdown list dynamically adjusts its size based on the number of suggestions and available screen space.
+Asynchronous Data Fetching:
+Implement a function to fetch suggestions from a remote server or API based on the user's input.
+Utilize React's lifecycle methods or hooks (such as useEffect and useState) to manage the asynchronous data fetching process.
+Handle loading states and display feedback to the user during the fetching process.
+Debounce:
+Implement a debounce mechanism to optimize the data fetching process.
+Use a debounce function or a library like Lodash to delay the execution of the fetch function after the user stops typing.
+List Rendering:
+Render the fetched suggestions in the dropdown list below the input field.
+Each suggestion should be clickable, allowing users to select it and populate the input field with the chosen suggestion.
+Provide visual feedback to indicate the currently selected suggestion, such as highlighting or changing its background color.
