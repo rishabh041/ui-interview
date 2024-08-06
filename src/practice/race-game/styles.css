@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.correct-text {
+  color: green;
+}
+
+.error-text {
+  color: red;
+}

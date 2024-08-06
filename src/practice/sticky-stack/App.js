@@ -1,9 +1,10 @@
 import React from 'react';
 
-const App = () => {
+const App = (props) => {
+  
   
   return (
-    <div>
+    <div className='parent'>
       
     </div>
   );

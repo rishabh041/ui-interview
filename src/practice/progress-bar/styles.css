@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 400px;
+  padding: 40px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  background-color: grey;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.my-bar {
+  width: 0%;
+  background-color: green;
+  height: 100%;
+  /* transition: width 0.5s ease; */
+}

@@ -1,0 +1,10 @@
+.stack-item{
+  position: relative;
+  top: auto;
+}
+
+.sticky{
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}

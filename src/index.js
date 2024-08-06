@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './jira-dashboard/App';
-import App from './autocomplete/App'
+// import App from './practice/jira-dashboard/App';
+// import App from './practice//autocomplete/App';
+// import App from './practice/progress-bar/App';
+// import App from './practice/race-game/App';
+import App from './interview/App';
+// import App from './App';
+import { ThemeProvider } from './ThemeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 

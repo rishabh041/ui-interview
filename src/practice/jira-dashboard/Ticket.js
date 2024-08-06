@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTheme } from '../../ThemeContext';
 
 const Ticket = props => {
   const { ticketItem, currentProgress } = props;
+  const theme = useTheme();
+  console.log(theme);
 
   if(ticketItem.progress !== currentProgress)
       return null;
