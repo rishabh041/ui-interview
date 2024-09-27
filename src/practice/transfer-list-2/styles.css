@@ -1,0 +1,15 @@
+.transfer-list{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container{
+  display: flex;
+  flex-direction: column;
+}

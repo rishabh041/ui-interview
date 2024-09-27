@@ -1,0 +1,17 @@
+.button-container{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.list-container{
+  display: flex;
+  flex-direction: column;
+}
+ .list-container > ul{
+  list-style: none;
+ }
+
+.transfer-list{
+  display: flex;
+}
